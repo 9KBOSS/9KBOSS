@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>9KBOSS - HACKTOOL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>9KBOSS - HACKTOOL</h1>
+    <div id="clock" class="clock"></div>
+    <p class="instructions">
+      Set number of mines below and click “Get Signal” to reveal diamonds 💎<br />
+      ⚠️ Use a new account only for better results.
+    </p>
+    <div class="grid" id="grid"></div>
+  </div>
+
+  <div class="controls">
+    <label for="mines">Select Number of Mines:</label>
+    <select id="mines">
+      <option value="1">1 Mine</option>
+      <option value="3" selected>3 Mines</option>
+    </select>
+    <button id="getSignal">🔁 Get Signal</button>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://t.me/RAONESIGNALS" target="_blank" class="social telegram"></a>
+    <a href="https://www.instagram.com/tradeinsighthq" target="_blank" class="social instagram"></a>
+    <a href="https://www.instagram.com/billionairesflow7" target="_blank" class="social instagram"></a>
+  </div>
+
+  <div id="overlay">
+    <div class="overlay-content">
+      <span id="cooldown-text">⏳ Please wait...</span>
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+  </div>
+
+  <footer>🔐 Made with ❤️ by 9KBOSS | © 2025</footer>
+
+  <audio id="revealSound" src="https://cdn.pixabay.com/download/audio/2022/03/26/audio_c52856cce3.mp3?filename=game-notification-132514.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
